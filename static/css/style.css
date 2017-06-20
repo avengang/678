@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+  vertical-align: baseline;
+  padding: 0;
+  background: 0 0;
+  color: #41b7d8;
+}
+a:hover {
+  border-bottom: .08em solid #41b7d8;
+}
+body {
+  font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+  font-style: normal;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.current_item>a, .item>a:hover {
+  color: rgba(0,0,0,.6);
+  background-color: #ff6;
+}
+.floatL {
+	float: left;
+}
+.floatR {
+	float: right;
+}
+.line-height58 {
+	line-height: 58px;
+}
+.display-inline-block {
+	display: inline-block;
+}
+.padding-0-12 {
+	padding: 0 12px;
+}
+.touchable {
+	cursor: pointer;
+}
