@@ -1,7 +1,7 @@
 <template>
 	<div class="container">
 		<div class="so-header">
-			<div class="box">
+			<div class="box display-inline-block">
 				<a class="navigation logo floatL touchable">678</a>
 				<a class="navigation floatL line-height58 display-inline-block padding-0-12 touchable">Questions</a>
 				<a class="navigation floatL line-height58 display-inline-block padding-0-12 touchable">Developer Jobs</a>
@@ -15,9 +15,14 @@
 	                    <svg role="icon" class="svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.864 11.321L18 16.5 16.5 18l-5.178-5.136v-.357a7 7 0 1 1 1.186-1.186h.356zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"></path></svg>
 	                </button>
 	            </form>
+	            <a class="headerbar-icon-a navigation floatL line-height58 display-inline-block padding-0-12 touchable"><svg role="icon" class="headerbar-icon svg-icon iconHelp" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 1 0 0 16.001A8 8 0 0 0 9 1zm.812 12.126c-.02.716-.55 1.157-1.238 1.137-.659-.02-1.177-.49-1.157-1.209.02-.715.566-1.17 1.225-1.15.691.021 1.194.507 1.17 1.222zm1.956-5.114c-.168.237-.546.542-1.02.912l-.527.361c-.257.197-.417.43-.502.695-.044.141-.076.507-.084.752-.004.048-.032.156-.181.156H7.883c-.165 0-.185-.096-.18-.144.023-.667.12-1.218.397-1.66.374-.594 1.426-1.221 1.426-1.221.161-.12.286-.25.382-.39.177-.24.321-.51.321-.8 0-.333-.08-.65-.293-.915-.249-.31-.518-.458-1.036-.458-.51 0-.808.257-1.021.594-.213.338-.177.735-.177 1.097H5.746c0-1.366.357-2.238 1.112-2.752.51-.35 1.162-.502 1.921-.502.996 0 1.788.184 2.487.715.647.49.988 1.181.988 2.113 0 .575-.2 1.057-.486 1.447z"></path></svg></a>
+				<a class="headerbar-icon-a navigation floatL line-height58 display-inline-block padding-0-12 touchable"><svg role="icon" class="headerbar-icon svg-icon iconStackExchange" width="18" height="18" viewBox="0 0 18 18"><path d="M1 13a2 2 0 0 0 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z"></path></svg></a>
+				<a class="navigation floatL line-height58 display-inline-block padding-0-12 touchable">Log In</a>
+				<a class="navigation floatL line-height58 display-inline-block padding-0-12 touchable">Sign Up</a>
 			</div>
 		</div>
-		<ol class="-list">
+		
+		<!--<ol class="-list">
 		    <li class="-item"><a href="#" class="-link js-help-button" title="Help Center and other resources">
 		        <svg role="icon" class="svg-icon iconHelp" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 1 0 0 16.001A8 8 0 0 0 9 1zm.812 12.126c-.02.716-.55 1.157-1.238 1.137-.659-.02-1.177-.49-1.157-1.209.02-.715.566-1.17 1.225-1.15.691.021 1.194.507 1.17 1.222zm1.956-5.114c-.168.237-.546.542-1.02.912l-.527.361c-.257.197-.417.43-.502.695-.044.141-.076.507-.084.752-.004.048-.032.156-.181.156H7.883c-.165 0-.185-.096-.18-.144.023-.667.12-1.218.397-1.66.374-.594 1.426-1.221 1.426-1.221.161-.12.286-.25.382-.39.177-.24.321-.51.321-.8 0-.333-.08-.65-.293-.915-.249-.31-.518-.458-1.036-.458-.51 0-.808.257-1.021.594-.213.338-.177.735-.177 1.097H5.746c0-1.366.357-2.238 1.112-2.752.51-.35 1.162-.502 1.921-.502.996 0 1.788.184 2.487.715.647.49.988 1.181.988 2.113 0 .575-.2 1.057-.486 1.447z"></path></svg>
 		    </a></li>
@@ -26,7 +31,7 @@
 		            <svg role="icon" class="svg-icon iconStackExchange" width="18" height="18" viewBox="0 0 18 18"><path d="M1 13a2 2 0 0 0 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z"></path></svg>
 		        </a>
 		    </li>
-        </ol>
+        </ol>-->
 	</div>
 </template>
 
@@ -187,5 +192,18 @@ export default {
 	}
 	.svg-icon {
 	    vertical-align: bottom;
+	}
+	.headerbar-icon {
+		vertical-align: middle;
+		color: #848d95;
+	}
+	.headerbar-icon-a {
+		color: #848d95;
+	}
+	.headerbar-icon-a:hover {
+		color: #3b4045;
+	}
+	a {
+		color: red;
 	}
 </style>
